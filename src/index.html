@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="en">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-  <title>Sassy Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Colin's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
+
 <body>
-  <h1>Hello, World!</h1>
+    <header>
+        <div id="hello">
+            <img id="profile" src='https://github.com/ColinFendrick/portfolio/blob/master/public/images/Screen%20Shot%202017-03-14%20at%208.37.11%20AM.png?raw=true' alt='headshot'>
+            <div id='textBox'>
+                <div id='talkArrow'></div>
+                <p>Hi, I'm Colin Fendrick!</p>
+                <p style="font-size:.7em">I'm a Jr. Front End Developer in St. Petersburg, FL.</p>
+            </div>
+        </div>
+        <div class='appImagesFlex'>
+            <a class='appImage' href='undefined'><img src="https://github.com/ColinFendrick/portfolio/blob/master/public/images/bomb-sniffer.png?raw=true" alt="appImage1" title='Bomb Sniffer'></a>
+            <a class='appImage' href='undefined'><img src="https://github.com/ColinFendrick/portfolio/blob/master/public/images/make-it-rain.png?raw=true" alt="appImage2" title='Make It Rainn Wilson!'></a>
+            <a class='appImage' href='undefined'><img src="https://github.com/ColinFendrick/portfolio/blob/master/public/images/one-list.png?raw=true" alt="appImage3" title='One List Who&#8217s Crying Now?'></a>
+            <a class='appImage' href='undefined'><img src="https://github.com/ColinFendrick/portfolio/blob/master/public/images/sensei-sense.png?raw=true" alt="appImage4" title="Ball Color Game"></a>
+        </div>
+    </header>
+    <main>
+        <div class="sectionInfo">
+            <div id="reactImage"></div>
+            <p><span class='infoHeader'>Color Picker</span><span class='infoDate'>3.25.17</span></p>
+            <p class='infoText'>This was our first week's assignment in Javascript coding.</p>
+            <div class='keepReading'><a href='http://color-picker.colinfendrick.surge.sh/'>KEEP READING</a></div>
+        </div>
+
+        <div class="sectionInfo">
+            <div id="codeImage"></div>
+            <p><span class='infoHeader'>Fizz Buzz</span> <span class='infoDate'>3.20.2017</span></p>
+            <p class='infoText'>Code to Perdition: I grew up with math. Specifically, I grew up with <em>logic</em>. I was on the math team in high school, spent my free time learning set theory and logic, and majored in Math with a focus on set theory in college. I still
+                bristle when people use ‘inverse’ when they mean ‘converse’, but that’s mostly because I’m also an ass. What excites me most about Javascript is being able to develop in a language that is logically...</p>
+            <div class='keepReading'><a href="https://medium.com/@colinfendrick/code-to-perdition-7b2c60d4e05c#.v05lz10s5">Keep reading</a></div>
+        </div>
+    </main>
+    <footer>
+        <p id='stayConnected'>Stay connected with me.</p>
+        <div class="logos">
+            <a href='thttps://twitter.com/ColinFendrick' title='Tweet me!'><span class="fa fa-twitter fa-5x logoLink" aria-hidden="true"></span></a>
+            <a href='https://www.facebook.com/jules.verne.58118' title='Facebook official!'><span class="fa fa-facebook fa-5x logoLink" aria-hidden="true"></span></a>
+            <a href='https://www.instagram.com/colinhangup/' title='Grammin!'><span class="fa fa-instagram fa-5x logoLink" aria-hidden="true"></span></a>
+        </div>
+        <p id="copyright">Copyright &copy; 2017 Colin Fendrick. Built with &hearts; at the Iron Yard.</p>
+    </footer>
 </body>
+
 </html>
